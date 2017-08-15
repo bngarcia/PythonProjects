@@ -1,11 +1,12 @@
 def story():
-  user_name = input("please enter your name")
-  print("you wake up and get coffee, you then see a strange man what do you do?Choose wisely")
-  user_response = int(input("1.Call emergency department\n2. fight\n3.ignore")
+  user_name = input('Please enter your name')
+  print('YTou wake up and get coffee, you then see a strange man what do you do?Choose wisely')
+  #RobinTTD- fixed the issue of not runnig
+  user_response = int(input('1.Call emergency department\n2. fight\n3.ignore'))
   if (user_response == 1):
     #1Call emergency department   
-    print ("He breaks into your house before you could make the call")
-    user_response = int(input("1.you decide to go outside"))
+    print ('He breaks into your house before you could make the call')
+    user_response = int(input('1.you decide to go outside'))
   #2Fight
   elif (user_response == 2):
     #2Fight
